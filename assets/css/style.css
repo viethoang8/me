@@ -39,7 +39,7 @@ body::before{
     pointer-events: none;
     background: url("/assets/img/background.jpg");
     background-size: cover;
-    animation: backZoomAnimation 30s forwards ;
+    animation: backZoomAnimation 20s forwards ;
 }
 
 @keyframes backZoomAnimation {
