@@ -37,7 +37,7 @@ body::before{
     inset: 0;
     z-index: -1;
     pointer-events: none;
-    background: url("/assets/img/backgroud.png");
+    background: url("/assets/img/backgroud.jpg");
     background-size: cover;
     animation: backZoomAnimation 30s forwards ;
 }
