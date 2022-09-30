@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --primary-color:rgba(158, 188, 214, 0.6);
+}
+
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 16px;
+    font-size: 62.5%;
+}
+
+.m-16{
+    margin: 16px 0;
+}
+
+.m-32{
+    margin: 32px 0;
+}
+
+body{
+    color: black;
+    min-height: 100vh;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body::before{
+    content: "";
+    position: fixed;
+    inset: 0;
+    z-index: -1;
+    pointer-events: none;
+    background: url("/assets/img/391083.webp");
+    background-size: cover;
+    animation: backZoomAnimation 30s forwards ;
+}
+
+@keyframes backZoomAnimation {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.8);
+    }
+    
+}
+
+@media (max-width: 759px ) {
+    .main{
+        width: 320px;
+    }
+
+    .inform__nav{
+        margin-left: 16px;
+    }
+
+    .inform__name{
+        font-size: 1.8rem;
+    }
+
+    .inform__work-title{
+        width: 80%;
+    }
+
+    .inform__social-icon i{
+        padding: 13px 16px;
+        font-size: 1.5rem;
+    }
+
+    .wrapper .facebook .tooltip {
+        margin-left: 2px;
+    }
+}
+
+.inform__avatar-border{
+    margin-left: -30px;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    width: 100%;
+    display: block;
+    z-index: 0;
+    position: absolute;
+}
+
+.inform__avatar-border-50{
+    width: 170px;
+    height: 170px;
+    margin-left: -8px;
+    display: block;
+    z-index: 1;
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 50%;
+}
