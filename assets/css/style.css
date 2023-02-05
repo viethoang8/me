@@ -98,3 +98,43 @@ body::before{
     background-color: rgba(255, 255, 255, 0.2);
     border-radius: 50%;
 }
+
+/* Upload image CSS */
+
+/* .container {
+    width: 195px;
+    margin: 1px -16px;
+}
+
+.preview {
+    margin-left: 6px;
+    width: 89%;
+    height: 174px;
+    color: white;
+    font-size: 16px;
+    position: relative;
+    border-radius: 100px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.preview i {
+	font-size: 60px;
+	margin-bottom: 20px;
+}
+
+img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	object-position: center;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1;
+} */

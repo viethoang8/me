@@ -121,13 +121,14 @@
     pointer-events: none;
     transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
+  
 
 .wrapper .tik-tok .tooltip {
     left: -16px;
     width: 72px;
 }
 
-.wrapper .youtobe .tooltip {
+.wrapper .youtube .tooltip {
     left: -12px;
 }
 
@@ -187,9 +188,9 @@
     color: #ffffff;
 }
 
-.wrapper .youtobe:hover,
-.wrapper .youtobe:hover .tooltip,
-.wrapper .youtobe:hover .tooltip::before{
+.wrapper .youtube:hover,
+.wrapper .youtube:hover .tooltip,
+.wrapper .youtube:hover .tooltip::before{
     background-color: #CD201F;
     color: #ffffff;
 }
